@@ -166,5 +166,5 @@ else
 fi
 
 #Start screen session and start server
-screen -dmS factorio bash -c ""$SERVER_FOLDER"factorio/bin/x64/factorio --start-server "$SAVE_FOLDER$SAVE_FILE"; exec bash"
+screen -dmS factorio bash -c "$SERVER_FOLDER"factorio/bin/x64/factorio --start-server "$SAVE_FOLDER$SAVE_FILE"; exec bash"
 echo "Server started!"
